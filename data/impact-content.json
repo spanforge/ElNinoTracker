@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.1",
+  "provider": "IMD / NCDC / NOAA",
+  "content_version": "india-guidance-2026-10-11-v2",
+  "source_checked_at": "2026-10-11T12:29:14.791Z",
+  "review_state": "source_verified",
+  "cards": [
+    {
+      "region": "india",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "evidence_type": "official_outlook",
+      "issued_at": "2026-09-30T00:00:00.000Z",
+      "valid_from": "2026-10-01T00:00:00.000Z",
+      "official_url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf",
+      "official_label": "Read IMD’s dated outlook",
+      "sources": [
+        {
+          "label": "IMD post-monsoon outlook · 30 September 2026",
+          "url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf"
+        }
+      ],
+      "scope": "Regional outlook, not a district forecast",
+      "id": "india-rain-oct2026",
+      "topic": "rain",
+      "title": "Seasonal rain",
+      "highlight": "October: below-usual rain across India",
+      "valid_until": "2026-10-31T23:59:59.999Z",
+      "period_label": "October 2026 / October–December 2026",
+      "text": "IMD expects October rain across India to be below 85% of usual. October–December rain is most likely near usual in Tamil Nadu, Puducherry, Kerala and parts of Andhra Pradesh and Karnataka. Districts can differ.",
+      "action": "Prepare for uneven rain; check district warnings before outdoor plans."
+    },
+    {
+      "region": "india",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "evidence_type": "official_outlook",
+      "issued_at": "2026-09-30T00:00:00.000Z",
+      "valid_from": "2026-10-01T00:00:00.000Z",
+      "official_url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf",
+      "official_label": "Read IMD’s dated outlook",
+      "sources": [
+        {
+          "label": "IMD post-monsoon outlook · 30 September 2026",
+          "url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf"
+        },
+        {
+          "label": "NCDC: heat precautions",
+          "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat6.pdf"
+        }
+      ],
+      "scope": "Regional outlook, not a district forecast",
+      "id": "india-water-oct2026",
+      "topic": "water",
+      "title": "Water and heat",
+      "highlight": "October: warmer days in much of India",
+      "valid_until": "2026-10-31T23:59:59.999Z",
+      "period_label": "October 2026",
+      "text": "IMD expects warmer-than-usual October days across most of India, with regional exceptions. Where post-monsoon rain is low, its outlook flags pressure on soil moisture and water availability.",
+      "action": "Use water carefully; move strenuous outdoor work to cooler hours."
+    },
+    {
+      "region": "india",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "evidence_type": "official_outlook",
+      "issued_at": "2026-09-30T00:00:00.000Z",
+      "valid_from": "2026-10-01T00:00:00.000Z",
+      "official_url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf",
+      "official_label": "Read IMD’s dated outlook",
+      "sources": [
+        {
+          "label": "IMD post-monsoon outlook · 30 September 2026",
+          "url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf"
+        }
+      ],
+      "scope": "Regional outlook, not a district forecast",
+      "id": "india-farms-ond2026",
+      "topic": "farms",
+      "title": "Farming context",
+      "highlight": "Winter crops: plan for available water",
+      "valid_until": "2026-12-31T23:59:59.999Z",
+      "period_label": "October–December 2026",
+      "text": "Below-usual post-monsoon rain could leave less water for winter crops and increase irrigation needs. IMD recommends checking water availability and using irrigation efficiently. These are potential pressures, not a prediction of crop loss.",
+      "action": "Check soil moisture and available irrigation water before sowing."
+    },
+    {
+      "region": "india",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "id": "india-rain-guidance",
+      "topic": "rain",
+      "title": "Seasonal rain",
+      "evidence_type": "official_guidance",
+      "text": "El Niño is one influence on India’s monsoon, alongside the Indian Ocean and weather systems. June–September southwest monsoon rain and October–December northeast monsoon rain behave differently. A dry seasonal average can still include heavy rain.",
+      "action": "Plan for both dry spells and sudden rain; follow district warnings.",
+      "official_url": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf",
+      "official_label": "IMD: how the monsoon works",
+      "sources": [
+        {
+          "label": "IMD monsoon FAQ",
+          "url": "https://mausam.imd.gov.in/imd_latest/monsoonfaq.pdf"
+        }
+      ],
+      "scope": "General seasonal guidance"
+    },
+    {
+      "region": "india",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "id": "india-water-guidance",
+      "topic": "water",
+      "title": "Water and heat",
+      "evidence_type": "official_guidance",
+      "text": "During hot weather, shade, drinking water and cooler working hours help reduce heat exposure. Children, older people and outdoor workers need extra attention. These precautions apply during local heat, whether or not El Niño is active.",
+      "action": "Carry drinking water and schedule strenuous work for mornings or evenings.",
+      "official_url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat6.pdf",
+      "official_label": "NCDC: heat precautions",
+      "sources": [
+        {
+          "label": "NCDC: heat precautions",
+          "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat6.pdf"
+        }
+      ],
+      "scope": "General hot-weather precautions"
+    },
+    {
+      "region": "india",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "id": "india-farms-guidance",
+      "topic": "farms",
+      "title": "Farming context",
+      "evidence_type": "official_guidance",
+      "text": "When rain is low, winter crops can need more irrigation and soil moisture can fall. IMD recommends assessing available water, using irrigation efficiently and preparing crop contingency plans. A national outlook cannot determine the right crop for every farm.",
+      "action": "Check soil moisture and irrigation water before planning sowing.",
+      "official_url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf",
+      "official_label": "IMD: water and farming preparedness",
+      "sources": [
+        {
+          "label": "IMD post-monsoon outlook · 30 September 2026",
+          "url": "https://internal.imd.gov.in/press_release/20260930_pr_5356.pdf"
+        }
+      ],
+      "scope": "General dry-weather preparedness"
+    },
+    {
+      "region": "global",
+      "phase": "all",
+      "applicable_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_at": null,
+      "review_due_at": null,
+      "review_state": "source_verified",
+      "source_checked_at": "2026-10-11T12:29:14.791Z",
+      "verification_basis": "Editorial summary checked against the linked official publication; not independent scientific sign-off",
+      "id": "global-context",
+      "evidence_type": "official_guidance",
+      "title": "Different places, different seasons",
+      "text": "El Niño can shift rainfall and temperatures in different directions across the world. Its effects depend on region and season; winter patterns in North America differ from conditions in Australia or South America.",
+      "action": "Choose a region to see the relevant seasonal explanation.",
+      "official_url": "https://www.noaa.gov/understanding-el-nino",
+      "official_label": "NOAA: regional and seasonal context",
+      "sources": [
+        {
+          "label": "NOAA: understanding El Niño",
+          "url": "https://www.noaa.gov/understanding-el-nino"
+        }
+      ],
+      "scope": "General regional context"
+    }
+  ]
+}

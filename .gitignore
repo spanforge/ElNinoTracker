@@ -134,3 +134,25 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Local browser verification artifacts
+.browser-check/
+.browser-check-next/
+browser-check.html
+browser-check.log
+
+# Next.js build output
+.next/
+
+
+# Local data and QA artifacts
+.data-cache/
+.team-data/
+.browser-check*/
+test-results/
+
+
+.next-dev/
+
+El_Nino_Tracker_Website_Specification_v1_1.docx
+.enso-data/
+.enso-recovery/

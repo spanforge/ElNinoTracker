@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {csv,parseRONI,parseProbabilities,parseAdvisory,aggregateDaily,parseFood,parseSOI,mean,sum} from '../lib/parsers.js';
+import {countries,findCountry,eventWindows} from '../lib/catalog.js';
+import {toCSV} from '../lib/client-utils.js';
+test('CSV handles quoted commas, embedded newlines and escaped quotes',()=>{assert.deepEqual(csv('a,b\r\n"x,y","two\nlines"\r\n"a""b",3'),[['a','b'],['x,y','two\nlines'],['a"b','3']])});
+test('Missing observations are never converted into zeros',()=>{assert.equal(mean([null,undefined,-999]),null);assert.equal(sum([null,-999]),null);assert.equal(mean([null,20,22]),21)});
+test('Monthly aggregation preserves missing months and valid-day counts',()=>{const result=aggregateDaily({daily:{time:['2024-01-01','2024-01-02','2024-02-01'],temperature_2m_mean:[20,22,null],temperature_2m_max:[36,30,null],precipitation_sum:[1,3,null]}});assert.equal(result[0].temperature,21);assert.equal(result[0].rainfall,4);assert.equal(result[0].heatDays,1);assert.equal(result[1].temperature,null);assert.equal(result[1].rainfall,null)});
+test('Forecast probability parser rejects totals that do not sum to 100',()=>{const d=parseProbabilities('<table><tr><td>SON Sep Oct Nov</td><td>5%</td><td>15%</td><td>80%</td></tr><tr><td>OND</td><td>50</td><td>50</td><td>50</td></tr></table>');assert.equal(d.length,1);assert.equal(d[0].elNino,80)});
+test('Advisory parser reads official phase without deriving phase from a single index',()=>{const d=parseAdvisory('<body>8 October 2026 ENSO Alert System Status: El Niño Advisory Synopsis: Warm conditions persist through winter. Next release.</body>');assert.equal(d.phase,'El Niño');assert.equal(d.issued,'8 October 2026')});
+test('RONI rejects an unexpected upstream format',()=>{assert.throws(()=>parseRONI('<table><tr><td>missing</td></tr></table>'))});
+test('Food prices parse dates and numeric measures without unrelated prose',()=>{const d=parseFood('Date,Food,Meat,Dairy,Cereals,Oils,Sugar\n2024-01,100,101,102,103,104,105\ninvalid,x,y,z');assert.equal(d.length,1);assert.equal(d[0].cereals,103)});
+test('CSV export protects spreadsheet formulas and preserves numeric negatives',()=>{const d=toCSV([{name:'=HYPERLINK("bad")',anomaly:-2}]);assert.match(d,/'=HYPERLINK/);assert.match(d,/"-2"/)});
+test('Global index includes major countries and has unique supported ISO3 identifiers',()=>{for(const id of ['IND','USA','FRA','NOR','BRA','KEN','AUS'])assert.ok(findCountry(id));assert.equal(new Set(countries.map(c=>c.iso3)).size,countries.length);assert.ok(Object.keys(eventWindows).length>=4)});
+test('SOI selects standardized table and handles fixed-width missing data without duplicating observations',()=>{const d=parseSOI('ANOMALY\n2026 1 2 3 4 5 6 7 8 9 10 11 12\nSTANDARDIZED    DATA\n2026   0.1   0.2   0.3   0.4   0.5   0.6   0.7   0.8  -3.3-999.9-999.9-999.9');assert.equal(d.length,9);assert.equal(d.at(-1).date,'2026-09');assert.equal(d.at(-1).value,-3.3)});

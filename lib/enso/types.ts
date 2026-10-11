@@ -1,0 +1,10 @@
+export type Phase='el_nino'|'la_nina'|'neutral'|'unknown';
+export type Freshness={state:'current'|'overdue'|'archive'|'unavailable';check_failed:boolean;last_checked_at?:string;issue_age_days:number|null;next_expected_at?:string|null};
+export type Release={schema_version:'1.1';id:string;bundle_id:string;provider:string;source_url:string;issued_at:string|null;issued_at_basis?:string;fetched_at:string;checksum:string;parser_version:string;review_state:'approved';next_expected_at?:string|null};
+export type Assessment=Release&{phase:Phase;alert:'advisory'|'watch'|'none'|'unknown';alert_phase:Phase|null;alert_wording:string;approved_plain_summary:string;source_summary:string};
+export type Forecast={season:string;season_start:string;season_end:string;p_el_nino:number;p_neutral:number;p_la_nina:number;method:string;probability_basis:string;rounding_rule:string};
+export type Outlook=Release&{forecasts:Forecast[];source_issued_period:string};
+export type Observation={index_name:string;dataset_version:string;series_id:string;reference_period:string;season_start:string;season_end:string;mid_month:string;season:string;year:number;value_c:number;provisional:boolean};
+export type History=Release&{index_name:string;dataset_version:string;series_id:string;reference_period:string;observations:Observation[]};
+export type Snapshot={assessment:Assessment|null;outlook:Outlook|null;previous:Assessment|null;previousOutlook:Outlook|null;history:History|null;freshness:{assessment:Freshness;outlook:Freshness;history:Freshness}};
+export type ImpactCard={id:string;topic?:string;region:'india'|'global';title:string;highlight?:string;action?:string;period_label?:string;scope?:string;issued_at?:string;source_checked_at?:string;sources?:{label:string;url:string}[];applicable_months:number[];phase:Phase|'all';text:string;official_url:string;official_label:string;evidence_type:'source_link'|'typical_pattern'|'official_outlook'|'official_guidance';reviewed_at:string|null;review_due_at:string|null;valid_from?:string;valid_until?:string;review_state:'approved'|'pending'|'source_verified';reviewer?:string};

@@ -1,0 +1,4 @@
+'use client';
+import {useResource} from './hooks';
+import {number} from '../lib/client-utils';
+export default function Embed({iso}){const global=useResource('/api/global'),local=useResource(`/api/country?iso=${iso}`);return <main className="embed-widget"><span className="eyebrow">ELNINOTRACKER · SRIRAM ADVISORY</span><h2>{local.data?.country?.name||iso}</h2><div className="status-pill">{global.data?.enso?.data?.advisory||'Loading assessment…'}</div><p>{number(local.data?.weather?.data?.current?.temperature_2m)} °C at the representative point · modeled conditions</p><small>NOAA advisory issued {global.data?.enso?.data?.issued||'unavailable'}. Data is not an ENSO impact estimate.</small><p><a className="inline-link" href={`/?country=${iso}`} target="_blank" rel="noreferrer">Explore full country dashboard ↗</a></p></main>}

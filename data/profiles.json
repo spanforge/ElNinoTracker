@@ -1,0 +1,98 @@
+{
+  "India": {
+    "region": "South Asia",
+    "lat": 22,
+    "lng": 79,
+    "type": "dry",
+    "season": "June – September",
+    "climate": "El Niño can weaken the summer monsoon, raising the likelihood of below-average rainfall and hotter conditions. The Indian Ocean and other climate patterns also influence the outcome.",
+    "economy": "Rain-fed crops and rural incomes are exposed to poor monsoon rainfall. Lower reservoir levels can put pressure on irrigation, hydropower, and food prices.",
+    "health": "Heat exposure, water scarcity, and reduced food access can increase health risks. Disease patterns depend on local temperature, rainfall, and public-health conditions.",
+    "nature": "Dry soils and water stress can affect crops, forests, and freshwater ecosystems.",
+    "action": "Follow local monsoon outlooks, conserve water, and prepare heat-health plans."
+  },
+  "Australia": {
+    "region": "Oceania",
+    "lat": -25,
+    "lng": 134,
+    "type": "dry",
+    "season": "Winter – spring",
+    "climate": "El Niño often brings reduced rainfall to eastern Australia, with warmer daytime temperatures and an earlier start to fire-weather conditions.",
+    "economy": "Drought can reduce crop yields and pasture growth, raise livestock feed costs, and constrain water-dependent industries.",
+    "health": "Heat and wildfire smoke can affect respiratory health. Drought can also increase mental-health pressures in rural communities.",
+    "nature": "Reduced river flows, dry vegetation, and elevated fire risk put ecosystems under stress.",
+    "action": "Monitor seasonal outlooks, review bushfire plans, and manage water supplies."
+  },
+  "Indonesia": {
+    "region": "Southeast Asia",
+    "lat": -3,
+    "lng": 118,
+    "type": "dry",
+    "season": "June – November",
+    "climate": "El Niño commonly delays rains and increases dry-season drought risk across parts of Indonesia.",
+    "economy": "Water stress can affect rice production, plantations, and hydropower. Fires and haze can disrupt transport and economic activity.",
+    "health": "Smoke from forest and peat fires can increase respiratory illness; heat and water scarcity add pressure.",
+    "nature": "Dry peatlands and forests become more vulnerable to fire and habitat loss.",
+    "action": "Prepare for water shortages, monitor fire warnings, and limit smoke exposure."
+  },
+  "Peru": {
+    "region": "South America",
+    "lat": -10,
+    "lng": -75,
+    "type": "wet",
+    "season": "December – April",
+    "climate": "Eastern-Pacific El Niño events can bring unusually warm coastal water and heavy rainfall to northern coastal Peru. Effects differ elsewhere in the country.",
+    "economy": "Flooding can damage transport and farms, while warmer ocean water can alter fisheries and fishmeal supply.",
+    "health": "Flood injuries, disrupted care, and contaminated drinking water can increase health risks.",
+    "nature": "Reduced upwelling changes marine nutrients and can displace fish populations.",
+    "action": "Follow coastal flood alerts, protect drinking water, and prepare evacuation routes."
+  },
+  "United States of America": {
+    "region": "North America",
+    "lat": 38,
+    "lng": -98,
+    "type": "mixed",
+    "season": "December – February",
+    "climate": "El Niño often favors wetter conditions across the southern US and warmer conditions in the north. Regional effects vary, and individual storms are not guaranteed.",
+    "economy": "Changes in winter storms affect agriculture, water supply, energy demand, and transport. Flood exposure can rise in some southern areas.",
+    "health": "Flooding and storms can cause injuries and interrupt access to care; warmer winters can shift local health exposures.",
+    "nature": "Rain and snowpack changes affect watersheds and habitats differently across the country.",
+    "action": "Use local seasonal forecasts and prepare for regional flood and storm hazards."
+  },
+  "Brazil": {
+    "region": "South America",
+    "lat": -12,
+    "lng": -52,
+    "type": "mixed",
+    "season": "Season-dependent",
+    "climate": "El Niño can favor drought and heat in parts of northern Brazil and wetter conditions in southern Brazil.",
+    "economy": "Regional drought and floods can affect agriculture, hydropower, and transport in different ways.",
+    "health": "Heat, smoke, and floods pose region-specific risks. Water and vector-borne disease patterns depend on local conditions.",
+    "nature": "Drier conditions can increase fire vulnerability in the Amazon, while southern ecosystems may face flooding.",
+    "action": "Check regional forecasts and prepare for the locally relevant drought or flood risk."
+  },
+  "Kenya": {
+    "region": "East Africa",
+    "lat": 0,
+    "lng": 38,
+    "type": "wet",
+    "season": "October – December",
+    "climate": "El Niño is often associated with wetter short rains in equatorial East Africa, although the Indian Ocean Dipole also plays an important role.",
+    "economy": "Rain can benefit crops and pasture, but excessive rainfall can damage farms, roads, and livelihoods.",
+    "health": "Flooding can contaminate water and disrupt health services. Some vector-borne disease risks can increase under suitable conditions.",
+    "nature": "Heavy rain can cause erosion and flooding, alongside improved vegetation growth.",
+    "action": "Monitor short-rains forecasts and prepare flood response and safe-water supplies."
+  },
+  "South Africa": {
+    "region": "Southern Africa",
+    "lat": -29,
+    "lng": 25,
+    "type": "dry",
+    "season": "December – March",
+    "climate": "El Niño often raises the risk of below-normal summer rainfall and warmer conditions in southern Africa.",
+    "economy": "Drought can affect maize production, livestock, water supplies, and agricultural incomes.",
+    "health": "Heat and food or water insecurity can increase health burdens, especially in vulnerable communities.",
+    "nature": "Low soil moisture and river flows can stress grasslands and freshwater habitats.",
+    "action": "Plan water conservation, monitor crop conditions, and prepare for heat."
+  }
+}

@@ -1,0 +1,5 @@
+'use client';
+import {useEffect,useRef,useState} from 'react';
+import dynamic from 'next/dynamic';
+const History=dynamic(()=>import('./history'),{ssr:false,loading:()=> <div className="chart-skeleton" role="status">Preparing the observed record…</div>});
+export default function LazyHistory(){const host=useRef<HTMLDivElement>(null),[visible,setVisible]=useState(false);useEffect(()=>{if(!('IntersectionObserver'in window)){setVisible(true);return}const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){setVisible(true);observer.disconnect()}},{rootMargin:'160px'});if(host.current)observer.observe(host.current);return()=>observer.disconnect()},[]);return <div ref={host}>{visible?<History/>:<div className="history-placeholder"><p>Explore the observed record, with an accessible table.</p><button onClick={()=>setVisible(true)}>Load history</button></div>}<noscript><p><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/">Read the official observed history.</a></p></noscript></div>}

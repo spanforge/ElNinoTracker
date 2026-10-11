@@ -1,0 +1,26 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"ENSO release v1.1",
+ "type":"object",
+ "required":["schema_version","id","bundle_id","provider","kind","source_url","issued_at","fetched_at","checksum","parser_version","review_state","raw_file","approval"],
+ "properties":{
+  "schema_version":{"const":"1.1"},
+  "id":{"type":"string","pattern":"^[a-z0-9-]{8,120}$"},
+  "bundle_id":{"type":"string","pattern":"^[a-z0-9-]{8,120}$"},
+  "provider":{"const":"NOAA CPC"},
+  "kind":{"enum":["assessment","outlook","history"]},
+  "source_url":{"type":"string","format":"uri"},
+  "issued_at":{"type":["string","null"],"format":"date-time"},
+  "fetched_at":{"type":"string","format":"date-time"},
+  "checksum":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+  "raw_file":{"type":"string","pattern":"^(assessment|outlook|history)-[a-f0-9]{64}\\.html$"},
+  "parser_version":{"type":"string"},
+  "review_state":{"enum":["approved","staged"]},
+  "approval":{"type":"object","required":["identity","rule_version"],"properties":{"identity":{"type":"string","minLength":1},"rule_version":{"type":"string","minLength":1}}}
+ },
+ "allOf":[
+  {"if":{"properties":{"kind":{"const":"assessment"}}},"then":{"required":["phase","alert","approved_plain_summary"],"properties":{"phase":{"enum":["el_nino","la_nina","neutral"]},"alert":{"enum":["advisory","watch","none"]},"approved_plain_summary":{"type":"string","minLength":1}}}},
+  {"if":{"properties":{"kind":{"const":"outlook"}}},"then":{"required":["forecasts"],"properties":{"forecasts":{"type":"array","minItems":1,"items":{"type":"object","required":["season_start","season_end","p_el_nino","p_neutral","p_la_nina"],"properties":{"season_start":{"type":"string","format":"date-time"},"season_end":{"type":"string","format":"date-time"},"p_el_nino":{"type":"number","minimum":0,"maximum":100},"p_neutral":{"type":"number","minimum":0,"maximum":100},"p_la_nina":{"type":"number","minimum":0,"maximum":100}}}}}}},
+  {"if":{"properties":{"kind":{"const":"history"}}},"then":{"required":["index_name","series_id","dataset_version","reference_period","observations"],"properties":{"index_name":{"const":"RONI"},"dataset_version":{"const":"ERSSTv6"},"reference_period":{"type":"string"},"observations":{"type":"array","minItems":1}}}}
+ ]
+}

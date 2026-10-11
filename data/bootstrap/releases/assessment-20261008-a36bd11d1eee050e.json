@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.1",
+  "id": "assessment-20261008-a36bd11d1eee050e",
+  "bundle_id": "bundle-20261008-a36bd11d1eee050e",
+  "provider": "NOAA CPC",
+  "kind": "assessment",
+  "source_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+  "issued_at": "2026-10-08T00:00:00.000Z",
+  "fetched_at": "2026-10-11T11:54:12.908Z",
+  "checksum": "e0e2a3b2309a68e7dbe860438b1ecc55e660789d3db329b350a1019a355eebb4",
+  "parser_version": "cpc-fixed-adapters/1.1.0",
+  "review_state": "approved",
+  "approval": {
+    "identity": "automated mapping",
+    "rule_version": "verified-cpc-schema/1.1"
+  },
+  "raw_file": "assessment-e0e2a3b2309a68e7dbe860438b1ecc55e660789d3db329b350a1019a355eebb4.html",
+  "next_expected_at": "2026-11-12T00:00:00.000Z",
+  "phase": "el_nino",
+  "alert": "advisory",
+  "alert_phase": "el_nino",
+  "alert_wording": "El Niño Advisory",
+  "source_summary": "El Niño continues to strengthen, with a strong-to-very strong El Niño likely through January-March 2027 (remaining greater than an 83% chance)",
+  "approved_plain_summary": "Part of the tropical Pacific is unusually warm, with changes in the atmosphere too. This can shift weather patterns far away."
+}

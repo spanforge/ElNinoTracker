@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1",
+  "id": "outlook-20261008-a36bd11d1eee050e",
+  "bundle_id": "bundle-20261008-a36bd11d1eee050e",
+  "provider": "NOAA CPC",
+  "kind": "outlook",
+  "source_url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+  "issued_at": "2026-10-08T00:00:00.000Z",
+  "fetched_at": "2026-10-11T11:54:12.909Z",
+  "checksum": "07733115ce83410b5e164df9164a1eb14143c0aa9a836c4cbc37d472e7ff1096",
+  "parser_version": "cpc-fixed-adapters/1.1.0",
+  "review_state": "approved",
+  "approval": {
+    "identity": "automated mapping",
+    "rule_version": "verified-cpc-schema/1.1"
+  },
+  "raw_file": "outlook-07733115ce83410b5e164df9164a1eb14143c0aa9a836c4cbc37d472e7ff1096.html",
+  "source_issued_period": "October 2026",
+  "issued_at_basis": "Associated NOAA diagnostic issue; source table displays month and year",
+  "forecasts": [
+    {
+      "season": "SON",
+      "season_start": "2026-09-01T00:00:00.000Z",
+      "season_end": "2026-11-30T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 0,
+      "p_el_nino": 100,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "OND",
+      "season_start": "2026-10-01T00:00:00.000Z",
+      "season_end": "2026-12-31T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 0,
+      "p_el_nino": 100,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "NDJ",
+      "season_start": "2026-11-01T00:00:00.000Z",
+      "season_end": "2027-01-31T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 0,
+      "p_el_nino": 100,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "DJF",
+      "season_start": "2026-12-01T00:00:00.000Z",
+      "season_end": "2027-02-28T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 0,
+      "p_el_nino": 100,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "JFM",
+      "season_start": "2027-01-01T00:00:00.000Z",
+      "season_end": "2027-03-31T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 0,
+      "p_el_nino": 100,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "FMA",
+      "season_start": "2027-02-01T00:00:00.000Z",
+      "season_end": "2027-04-30T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 2,
+      "p_el_nino": 98,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "MAM",
+      "season_start": "2027-03-01T00:00:00.000Z",
+      "season_end": "2027-05-31T23:59:59.999Z",
+      "p_la_nina": 0,
+      "p_neutral": 15,
+      "p_el_nino": 85,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "AMJ",
+      "season_start": "2027-04-01T00:00:00.000Z",
+      "season_end": "2027-06-30T23:59:59.999Z",
+      "p_la_nina": 1,
+      "p_neutral": 54,
+      "p_el_nino": 45,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    },
+    {
+      "season": "MJJ",
+      "season_start": "2027-05-01T00:00:00.000Z",
+      "season_end": "2027-07-31T23:59:59.999Z",
+      "p_la_nina": 13,
+      "p_neutral": 70,
+      "p_el_nino": 17,
+      "method": "NOAA CPC official consensus outlook",
+      "probability_basis": "Pacific climate phase, verified against RONI",
+      "rounding_rule": "Source percentages rounded; totals 99–101 permitted"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+'use client';
+import {Info,ExternalLink} from 'lucide-react';
+import {sources} from '../lib/catalog';
+import {number,timestamp} from '../lib/client-utils';
+export function Source({id,feed}){const s=sources.find(s=>s.id===id);return <div className="source-note"><a href={s?.url} target="_blank" rel="noreferrer">{s?.name} <ExternalLink size={12}/></a>{feed&&<span className={['stale','unavailable'].includes(feed.status)?'warning-text':''}>{feed.status} · {timestamp(feed.fetchedAt)}</span>}</div>}
+export function Empty({children='No published values available.'}){return <div className="empty"><Info size={16}/><span>{children}</span></div>}
+export function Metric({label,value,unit='',note}){return <div className="metric"><span className="metric-label">{label}</span><strong>{number(value)} <small>{unit}</small></strong><span>{note}</span></div>}
+export function Heading({eyebrow,title,children}){return <div className="section-heading"><div><span className="eyebrow">{eyebrow}</span><h2>{title}</h2></div>{children}</div>}
+export function HazardTable({hazards=[],empty='No hazards available in the current retrieval.'}){return hazards.length?<div className="table-scroll"><table><caption>GDACS events; reported hazards are not necessarily caused by ENSO.</caption><thead><tr><th>Event</th><th>Location</th><th>Alert</th><th>Period</th></tr></thead><tbody>{hazards.slice(0,100).map((h,i)=><tr key={h.id+i}><td><a href={typeof h.url==='string'&&/^https:\/\//.test(h.url)?h.url:'https://www.gdacs.org/'} target="_blank" rel="noreferrer">{h.name} ↗</a></td><td>{h.country||'Multiple / unspecified'}</td><td><span className={`hazard-pill ${(h.level||'').toLowerCase()}`}>{h.level||'Unspecified'}</span></td><td>{h.from?.slice(0,10)} – {h.to?.slice(0,10)}</td></tr>)}</tbody></table></div>:<Empty>{empty}</Empty>}

@@ -1,0 +1,52 @@
+{
+  "name": "elninotracker",
+  "version": "2.0.0",
+  "description": "ElNinoTracker — Global El Niño Impact Explorer",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3000",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "test": "node --test tests/enso-spec.test.mjs",
+    "test:browser": "node tests/spec-browser.mjs",
+    "data:refresh": "node scripts/enso-data.mjs update",
+    "data:status": "node scripts/enso-data.mjs status",
+    "data:map": "node scripts/prepare-map.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spanforge/ElNinoTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/spanforge/ElNinoTracker/issues"
+  },
+  "homepage": "https://github.com/spanforge/ElNinoTracker#readme",
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "cheerio": "^1.2.0",
+    "d3-geo": "^3.1.1",
+    "fast-xml-parser": "^5.11.2",
+    "globe.gl": "^2.46.2",
+    "jose": "^6.2.12",
+    "lucide": "^1.55.0",
+    "lucide-react": "^1.55.0",
+    "next": "^16.4.0",
+    "postgres": "^3.4.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright-core": "^1.64.0",
+    "typescript": "^7.0.2"
+  }
+}

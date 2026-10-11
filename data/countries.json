@@ -1,0 +1,2326 @@
+[
+  {
+    "name": "Indonesia",
+    "iso3": "IDN",
+    "iso2": "ID",
+    "lat": -2.272,
+    "lng": 117.211,
+    "capital": "Jakarta",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Malaysia",
+    "iso3": "MYS",
+    "iso2": "MY",
+    "lat": 3.814,
+    "lng": 109.7,
+    "capital": "Kuala Lumpur",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Chile",
+    "iso3": "CHL",
+    "iso2": "CL",
+    "lat": -36.08,
+    "lng": -71.045,
+    "capital": "Santiago",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Bolivia",
+    "iso3": "BOL",
+    "iso2": "BO",
+    "lat": -16.681,
+    "lng": -64.698,
+    "capital": "La Paz",
+    "region": "Latin America & Caribbean ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Peru",
+    "iso3": "PER",
+    "iso2": "PE",
+    "lat": -9.109,
+    "lng": -74.416,
+    "capital": "Lima",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Argentina",
+    "iso3": "ARG",
+    "iso2": "AR",
+    "lat": -34.682,
+    "lng": -64.757,
+    "capital": "Buenos Aires",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Cyprus",
+    "iso3": "CYP",
+    "iso2": "CY",
+    "lat": 34.916,
+    "lng": 32.99,
+    "capital": "Nicosia",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "India",
+    "iso3": "IND",
+    "iso2": "IN",
+    "lat": 22.778,
+    "lng": 79.56,
+    "capital": "New Delhi",
+    "region": "South Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "China",
+    "iso3": "CHN",
+    "iso2": "CN",
+    "lat": 36.688,
+    "lng": 103.393,
+    "capital": "Beijing",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Israel",
+    "iso3": "ISR",
+    "iso2": "IL",
+    "lat": 31.438,
+    "lng": 34.993,
+    "capital": "",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Palestine",
+    "iso3": "PSE",
+    "iso2": "PS",
+    "lat": 31.916,
+    "lng": 35.2,
+    "capital": "",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Lebanon",
+    "iso3": "LBN",
+    "iso2": "LB",
+    "lat": 33.919,
+    "lng": 35.877,
+    "capital": "Beirut",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Ethiopia",
+    "iso3": "ETH",
+    "iso2": "ET",
+    "lat": 8.615,
+    "lng": 39.61,
+    "capital": "Addis Ababa",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "South Sudan",
+    "iso3": "SSD",
+    "iso2": "SS",
+    "lat": 7.284,
+    "lng": 30.305,
+    "capital": "Juba",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Somalia",
+    "iso3": "SOM",
+    "iso2": "SO",
+    "lat": 4.738,
+    "lng": 45.678,
+    "capital": "Mogadishu",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Kenya",
+    "iso3": "KEN",
+    "iso2": "KE",
+    "lat": 0.55,
+    "lng": 37.823,
+    "capital": "Nairobi",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Malawi",
+    "iso3": "MWI",
+    "iso2": "MW",
+    "lat": -13.204,
+    "lng": 34.283,
+    "capital": "Lilongwe",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "United Republic of Tanzania",
+    "iso3": "TZA",
+    "iso2": "TZ",
+    "lat": -6.268,
+    "lng": 34.802,
+    "capital": "Dodoma",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Syria",
+    "iso3": "SYR",
+    "iso2": "SY",
+    "lat": 35.017,
+    "lng": 38.484,
+    "capital": "Damascus",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Low income"
+  },
+  {
+    "name": "Suriname",
+    "iso3": "SUR",
+    "iso2": "SR",
+    "lat": 4.131,
+    "lng": -55.911,
+    "capital": "Paramaribo",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Guyana",
+    "iso3": "GUY",
+    "iso2": "GY",
+    "lat": 4.789,
+    "lng": -58.978,
+    "capital": "Georgetown",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "South Korea",
+    "iso3": "KOR",
+    "iso2": "KR",
+    "lat": 36.361,
+    "lng": 127.815,
+    "capital": "Seoul",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "North Korea",
+    "iso3": "PRK",
+    "iso2": "KP",
+    "lat": 40.137,
+    "lng": 127.15,
+    "capital": "Pyongyang",
+    "region": "East Asia & Pacific",
+    "income": "Low income"
+  },
+  {
+    "name": "Morocco",
+    "iso3": "MAR",
+    "iso2": "MA",
+    "lat": 29.773,
+    "lng": -8.664,
+    "capital": "Rabat",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Western Sahara",
+    "iso3": "ESH",
+    "iso2": "EH",
+    "lat": 24.211,
+    "lng": -12.27
+  },
+  {
+    "name": "Costa Rica",
+    "iso3": "CRI",
+    "iso2": "CR",
+    "lat": 9.973,
+    "lng": -84.191,
+    "capital": "San Jose",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Nicaragua",
+    "iso3": "NIC",
+    "iso2": "NI",
+    "lat": 12.843,
+    "lng": -85.035,
+    "capital": "Managua",
+    "region": "Latin America & Caribbean ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Republic of the Congo",
+    "iso3": "COG",
+    "iso2": "CG",
+    "lat": -0.838,
+    "lng": 15.22,
+    "capital": "Brazzaville",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "iso3": "COD",
+    "iso2": "CD",
+    "lat": -2.868,
+    "lng": 23.639,
+    "capital": "Kinshasa",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Bhutan",
+    "iso3": "BTN",
+    "iso2": "BT",
+    "lat": 27.422,
+    "lng": 90.407,
+    "capital": "Thimphu",
+    "region": "South Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Ukraine",
+    "iso3": "UKR",
+    "iso2": "UA",
+    "lat": 49.197,
+    "lng": 31.318,
+    "capital": "Kiev",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Belarus",
+    "iso3": "BLR",
+    "iso2": "BY",
+    "lat": 53.52,
+    "lng": 28.016,
+    "capital": "Minsk",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Namibia",
+    "iso3": "NAM",
+    "iso2": "NA",
+    "lat": -22.069,
+    "lng": 17.197,
+    "capital": "Windhoek",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "South Africa",
+    "iso3": "ZAF",
+    "iso2": "ZA",
+    "lat": -28.974,
+    "lng": 25.196,
+    "capital": "Pretoria",
+    "region": "Sub-Saharan Africa ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Saint Martin",
+    "iso3": "MAF",
+    "iso2": "MF",
+    "lat": 18.078,
+    "lng": -63.055,
+    "capital": "Marigot",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Sint Maarten",
+    "iso3": "SXM",
+    "iso2": "SX",
+    "lat": 18.041,
+    "lng": -63.07,
+    "capital": "Philipsburg",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Oman",
+    "iso3": "OMN",
+    "iso2": "OM",
+    "lat": 20.582,
+    "lng": 56.063,
+    "capital": "Muscat",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Uzbekistan",
+    "iso3": "UZB",
+    "iso2": "UZ",
+    "lat": 41.776,
+    "lng": 63.303,
+    "capital": "Tashkent",
+    "region": "Europe & Central Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Kazakhstan",
+    "iso3": "KAZ",
+    "iso2": "KZ",
+    "lat": 48.366,
+    "lng": 67.251,
+    "capital": "Astana",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Tajikistan",
+    "iso3": "TJK",
+    "iso2": "TJ",
+    "lat": 38.536,
+    "lng": 71.029,
+    "capital": "Dushanbe",
+    "region": "Europe & Central Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Lithuania",
+    "iso3": "LTU",
+    "iso2": "LT",
+    "lat": 55.325,
+    "lng": 23.898,
+    "capital": "Vilnius",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Brazil",
+    "iso3": "BRA",
+    "iso2": "BR",
+    "lat": -10.632,
+    "lng": -53.21,
+    "capital": "Brasilia",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Uruguay",
+    "iso3": "URY",
+    "iso2": "UY",
+    "lat": -32.79,
+    "lng": -56.024,
+    "capital": "Montevideo",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Mongolia",
+    "iso3": "MNG",
+    "iso2": "MN",
+    "lat": 46.955,
+    "lng": 103.127,
+    "capital": "Ulaanbaatar",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Russia",
+    "iso3": "RUS",
+    "iso2": "RU",
+    "lat": 66.036,
+    "lng": 95.653,
+    "capital": "Moscow",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Czechia",
+    "iso3": "CZE",
+    "iso2": "CZ",
+    "lat": 49.737,
+    "lng": 15.321,
+    "capital": "Prague",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Germany",
+    "iso3": "DEU",
+    "iso2": "DE",
+    "lat": 51.05,
+    "lng": 10.361,
+    "capital": "Berlin",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Estonia",
+    "iso3": "EST",
+    "iso2": "EE",
+    "lat": 58.672,
+    "lng": 25.538,
+    "capital": "Tallinn",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Latvia",
+    "iso3": "LVA",
+    "iso2": "LV",
+    "lat": 56.86,
+    "lng": 24.917,
+    "capital": "Riga",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Sweden",
+    "iso3": "SWE",
+    "iso2": "SE",
+    "lat": 62.381,
+    "lng": 16.277,
+    "capital": "Stockholm",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Finland",
+    "iso3": "FIN",
+    "iso2": "FI",
+    "lat": 64.252,
+    "lng": 26.191,
+    "capital": "Helsinki",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Vietnam",
+    "iso3": "VNM",
+    "iso2": "VN",
+    "lat": 16.54,
+    "lng": 106.348,
+    "capital": "Hanoi",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Cambodia",
+    "iso3": "KHM",
+    "iso2": "KH",
+    "lat": 12.715,
+    "lng": 104.901,
+    "capital": "Phnom Penh",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Luxembourg",
+    "iso3": "LUX",
+    "iso2": "LU",
+    "lat": 49.766,
+    "lng": 6.072,
+    "capital": "Luxembourg",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "United Arab Emirates",
+    "iso3": "ARE",
+    "iso2": "AE",
+    "lat": 23.906,
+    "lng": 54.293,
+    "capital": "Abu Dhabi",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Belgium",
+    "iso3": "BEL",
+    "iso2": "BE",
+    "lat": 50.637,
+    "lng": 4.647,
+    "capital": "Brussels",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Georgia",
+    "iso3": "GEO",
+    "iso2": "GE",
+    "lat": 42.173,
+    "lng": 43.524,
+    "capital": "Tbilisi",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "North Macedonia",
+    "iso3": "MKD",
+    "iso2": "MK",
+    "lat": 41.595,
+    "lng": 21.682,
+    "capital": "Skopje",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Albania",
+    "iso3": "ALB",
+    "iso2": "AL",
+    "lat": 41.135,
+    "lng": 20.056,
+    "capital": "Tirane",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Azerbaijan",
+    "iso3": "AZE",
+    "iso2": "AZ",
+    "lat": 40.287,
+    "lng": 47.544,
+    "capital": "Baku",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Turkey",
+    "iso3": "TUR",
+    "iso2": "TR",
+    "lat": 39.137,
+    "lng": 35.171,
+    "capital": "Ankara",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Spain",
+    "iso3": "ESP",
+    "iso2": "ES",
+    "lat": 40.19,
+    "lng": -3.711,
+    "capital": "Madrid",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Laos",
+    "iso3": "LAO",
+    "iso2": "LA",
+    "lat": 18.487,
+    "lng": 103.775,
+    "capital": "Vientiane",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "iso3": "KGZ",
+    "iso2": "KG",
+    "lat": 41.474,
+    "lng": 74.509,
+    "capital": "Bishkek",
+    "region": "Europe & Central Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Armenia",
+    "iso3": "ARM",
+    "iso2": "AM",
+    "lat": 40.286,
+    "lng": 44.941,
+    "capital": "Yerevan",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Denmark",
+    "iso3": "DNK",
+    "iso2": "DK",
+    "lat": 55.959,
+    "lng": 10.066,
+    "capital": "Copenhagen",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Libya",
+    "iso3": "LBY",
+    "iso2": "LY",
+    "lat": 27.016,
+    "lng": 18.068,
+    "capital": "Tripoli",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Tunisia",
+    "iso3": "TUN",
+    "iso2": "TN",
+    "lat": 34.089,
+    "lng": 9.558,
+    "capital": "Tunis",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Romania",
+    "iso3": "ROU",
+    "iso2": "RO",
+    "lat": 45.849,
+    "lng": 24.983,
+    "capital": "Bucharest",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Hungary",
+    "iso3": "HUN",
+    "iso2": "HU",
+    "lat": 47.166,
+    "lng": 19.381,
+    "capital": "Budapest",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Slovakia",
+    "iso3": "SVK",
+    "iso2": "SK",
+    "lat": 48.711,
+    "lng": 19.47,
+    "capital": "Bratislava",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Poland",
+    "iso3": "POL",
+    "iso2": "PL",
+    "lat": 52.109,
+    "lng": 19.424,
+    "capital": "Warsaw",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Ireland",
+    "iso3": "IRL",
+    "iso2": "IE",
+    "lat": 53.165,
+    "lng": -8.153,
+    "capital": "Dublin",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "United Kingdom",
+    "iso3": "GBR",
+    "iso2": "GB",
+    "lat": 54.034,
+    "lng": -2.778,
+    "capital": "London",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Greece",
+    "iso3": "GRC",
+    "iso2": "GR",
+    "lat": 39.025,
+    "lng": 22.985,
+    "capital": "Athens",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Zambia",
+    "iso3": "ZMB",
+    "iso2": "ZM",
+    "lat": -13.457,
+    "lng": 27.808,
+    "capital": "Lusaka",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Sierra Leone",
+    "iso3": "SLE",
+    "iso2": "SL",
+    "lat": 8.562,
+    "lng": -11.795,
+    "capital": "Freetown",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Guinea",
+    "iso3": "GIN",
+    "iso2": "GN",
+    "lat": 10.436,
+    "lng": -10.937,
+    "capital": "Conakry",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Liberia",
+    "iso3": "LBR",
+    "iso2": "LR",
+    "lat": 6.451,
+    "lng": -9.318,
+    "capital": "Monrovia",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Central African Republic",
+    "iso3": "CAF",
+    "iso2": "CF",
+    "lat": 6.57,
+    "lng": 20.458,
+    "capital": "Bangui",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Sudan",
+    "iso3": "SDN",
+    "iso2": "SD",
+    "lat": 15.958,
+    "lng": 29.903,
+    "capital": "Khartoum",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Djibouti",
+    "iso3": "DJI",
+    "iso2": "DJ",
+    "lat": 11.75,
+    "lng": 42.566,
+    "capital": "Djibouti",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Eritrea",
+    "iso3": "ERI",
+    "iso2": "ER",
+    "lat": 15.357,
+    "lng": 38.864,
+    "capital": "Asmara",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Austria",
+    "iso3": "AUT",
+    "iso2": "AT",
+    "lat": 47.592,
+    "lng": 14.115,
+    "capital": "Vienna",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Iraq",
+    "iso3": "IRQ",
+    "iso2": "IQ",
+    "lat": 33.01,
+    "lng": 43.775,
+    "capital": "Baghdad",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Italy",
+    "iso3": "ITA",
+    "iso2": "IT",
+    "lat": 42.705,
+    "lng": 12.203,
+    "capital": "Rome",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Switzerland",
+    "iso3": "CHE",
+    "iso2": "CH",
+    "lat": 46.8,
+    "lng": 8.213,
+    "capital": "Bern",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Iran",
+    "iso3": "IRN",
+    "iso2": "IR",
+    "lat": 32.523,
+    "lng": 54.444,
+    "capital": "Tehran",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Netherlands",
+    "iso3": "NLD",
+    "iso2": "NL",
+    "lat": 52.221,
+    "lng": 4.875,
+    "capital": "Amsterdam",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Liechtenstein",
+    "iso3": "LIE",
+    "iso2": "LI",
+    "lat": 47.138,
+    "lng": 9.541,
+    "capital": "Vaduz",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Ivory Coast",
+    "iso3": "CIV",
+    "iso2": "CI",
+    "lat": 7.625,
+    "lng": -5.569,
+    "capital": "Yamoussoukro",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Republic of Serbia",
+    "iso3": "SRB",
+    "iso2": "RS",
+    "lat": 44.212,
+    "lng": 20.806,
+    "capital": "Belgrade",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Mali",
+    "iso3": "MLI",
+    "iso2": "ML",
+    "lat": 17.313,
+    "lng": -3.587,
+    "capital": "Bamako",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Senegal",
+    "iso3": "SEN",
+    "iso2": "SN",
+    "lat": 14.366,
+    "lng": -14.467,
+    "capital": "Dakar",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Nigeria",
+    "iso3": "NGA",
+    "iso2": "NG",
+    "lat": 9.592,
+    "lng": 8.081,
+    "capital": "Abuja",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Benin",
+    "iso3": "BEN",
+    "iso2": "BJ",
+    "lat": 9.635,
+    "lng": 2.327,
+    "capital": "Porto-Novo",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Angola",
+    "iso3": "AGO",
+    "iso2": "AO",
+    "lat": -12.27,
+    "lng": 17.532,
+    "capital": "Luanda",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Croatia",
+    "iso3": "HRV",
+    "iso2": "HR",
+    "lat": 45.063,
+    "lng": 16.393,
+    "capital": "Zagreb",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Slovenia",
+    "iso3": "SVN",
+    "iso2": "SI",
+    "lat": 46.116,
+    "lng": 14.804,
+    "capital": "Ljubljana",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Qatar",
+    "iso3": "QAT",
+    "iso2": "QA",
+    "lat": 25.312,
+    "lng": 51.187,
+    "capital": "Doha",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Saudi Arabia",
+    "iso3": "SAU",
+    "iso2": "SA",
+    "lat": 24.086,
+    "lng": 44.663,
+    "capital": "Riyadh",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Botswana",
+    "iso3": "BWA",
+    "iso2": "BW",
+    "lat": -22.167,
+    "lng": 23.809,
+    "capital": "Gaborone",
+    "region": "Sub-Saharan Africa ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Zimbabwe",
+    "iso3": "ZWE",
+    "iso2": "ZW",
+    "lat": -18.995,
+    "lng": 29.851,
+    "capital": "Harare",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Pakistan",
+    "iso3": "PAK",
+    "iso2": "PK",
+    "lat": 29.883,
+    "lng": 69.17,
+    "capital": "Islamabad",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Bulgaria",
+    "iso3": "BGR",
+    "iso2": "BG",
+    "lat": 42.771,
+    "lng": 25.211,
+    "capital": "Sofia",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Thailand",
+    "iso3": "THA",
+    "iso2": "TH",
+    "lat": 15.079,
+    "lng": 101.001,
+    "capital": "Bangkok",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "San Marino",
+    "iso3": "SMR",
+    "iso2": "SM",
+    "lat": 43.936,
+    "lng": 12.442,
+    "capital": "San Marino",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Haiti",
+    "iso3": "HTI",
+    "iso2": "HT",
+    "lat": 18.938,
+    "lng": -72.692,
+    "capital": "Port-au-Prince",
+    "region": "Latin America & Caribbean ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Dominican Republic",
+    "iso3": "DOM",
+    "iso2": "DO",
+    "lat": 18.897,
+    "lng": -70.496,
+    "capital": "Santo Domingo",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Chad",
+    "iso3": "TCD",
+    "iso2": "TD",
+    "lat": 15.275,
+    "lng": 18.636,
+    "capital": "N'Djamena",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Kuwait",
+    "iso3": "KWT",
+    "iso2": "KW",
+    "lat": 29.339,
+    "lng": 47.595,
+    "capital": "Kuwait City",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "El Salvador",
+    "iso3": "SLV",
+    "iso2": "SV",
+    "lat": 13.736,
+    "lng": -88.87,
+    "capital": "San Salvador",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Guatemala",
+    "iso3": "GTM",
+    "iso2": "GT",
+    "lat": 15.692,
+    "lng": -90.363,
+    "capital": "Guatemala City",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "East Timor",
+    "iso3": "TLS",
+    "iso2": "TL",
+    "lat": -8.824,
+    "lng": 125.852,
+    "capital": "Dili",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Brunei",
+    "iso3": "BRN",
+    "iso2": "BN",
+    "lat": 4.517,
+    "lng": 114.727,
+    "capital": "Bandar Seri Begawan",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Monaco",
+    "iso3": "MCO",
+    "iso2": "MC",
+    "lat": 43.74,
+    "lng": 7.399,
+    "capital": "Monaco",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Algeria",
+    "iso3": "DZA",
+    "iso2": "DZ",
+    "lat": 28.044,
+    "lng": 2.666,
+    "capital": "Algiers",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Mozambique",
+    "iso3": "MOZ",
+    "iso2": "MZ",
+    "lat": -17.192,
+    "lng": 35.607,
+    "capital": "Maputo",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "eSwatini",
+    "iso3": "SWZ",
+    "iso2": "SZ",
+    "lat": -26.561,
+    "lng": 31.48,
+    "capital": "Mbabane",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Burundi",
+    "iso3": "BDI",
+    "iso2": "BI",
+    "lat": -3.357,
+    "lng": 29.875,
+    "capital": "Bujumbura",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Rwanda",
+    "iso3": "RWA",
+    "iso2": "RW",
+    "lat": -1.993,
+    "lng": 29.919,
+    "capital": "Kigali",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Myanmar",
+    "iso3": "MMR",
+    "iso2": "MM",
+    "lat": 21.094,
+    "lng": 96.496,
+    "capital": "Naypyidaw",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Bangladesh",
+    "iso3": "BGD",
+    "iso2": "BD",
+    "lat": 23.839,
+    "lng": 90.251,
+    "capital": "Dhaka",
+    "region": "South Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Andorra",
+    "iso3": "AND",
+    "iso2": "AD",
+    "lat": 42.541,
+    "lng": 1.561,
+    "capital": "Andorra la Vella",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Afghanistan",
+    "iso3": "AFG",
+    "iso2": "AF",
+    "lat": 33.82,
+    "lng": 65.93,
+    "capital": "Kabul",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Low income"
+  },
+  {
+    "name": "Montenegro",
+    "iso3": "MNE",
+    "iso2": "ME",
+    "lat": 42.785,
+    "lng": 19.238,
+    "capital": "Podgorica",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "iso3": "BIH",
+    "iso2": "BA",
+    "lat": 44.169,
+    "lng": 17.779,
+    "capital": "Sarajevo",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Uganda",
+    "iso3": "UGA",
+    "iso2": "UG",
+    "lat": 1.275,
+    "lng": 32.367,
+    "capital": "Kampala",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Cuba",
+    "iso3": "CUB",
+    "iso2": "CU",
+    "lat": 21.64,
+    "lng": -79.006,
+    "capital": "Havana",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Honduras",
+    "iso3": "HND",
+    "iso2": "HN",
+    "lat": 14.823,
+    "lng": -86.628,
+    "capital": "Tegucigalpa",
+    "region": "Latin America & Caribbean ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Ecuador",
+    "iso3": "ECU",
+    "iso2": "EC",
+    "lat": -1.427,
+    "lng": -78.769,
+    "capital": "Quito",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Colombia",
+    "iso3": "COL",
+    "iso2": "CO",
+    "lat": 3.899,
+    "lng": -73.08,
+    "capital": "Bogota",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Paraguay",
+    "iso3": "PRY",
+    "iso2": "PY",
+    "lat": -23.208,
+    "lng": -58.442,
+    "capital": "Asuncion",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Portugal",
+    "iso3": "PRT",
+    "iso2": "PT",
+    "lat": 39.605,
+    "lng": -8.62,
+    "capital": "Lisbon",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Moldova",
+    "iso3": "MDA",
+    "iso2": "MD",
+    "lat": 47.187,
+    "lng": 28.47,
+    "capital": "Chisinau",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Turkmenistan",
+    "iso3": "TKM",
+    "iso2": "TM",
+    "lat": 39.126,
+    "lng": 59.452,
+    "capital": "Ashgabat",
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Jordan",
+    "iso3": "JOR",
+    "iso2": "JO",
+    "lat": 31.238,
+    "lng": 36.757,
+    "capital": "Amman",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Nepal",
+    "iso3": "NPL",
+    "iso2": "NP",
+    "lat": 28.257,
+    "lng": 83.947,
+    "capital": "Kathmandu",
+    "region": "South Asia",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Lesotho",
+    "iso3": "LSO",
+    "iso2": "LS",
+    "lat": -29.579,
+    "lng": 28.23,
+    "capital": "Maseru",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Cameroon",
+    "iso3": "CMR",
+    "iso2": "CM",
+    "lat": 5.683,
+    "lng": 12.731,
+    "capital": "Yaounde",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Gabon",
+    "iso3": "GAB",
+    "iso2": "GA",
+    "lat": -0.591,
+    "lng": 11.79,
+    "capital": "Libreville",
+    "region": "Sub-Saharan Africa ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Niger",
+    "iso3": "NER",
+    "iso2": "NE",
+    "lat": 17.411,
+    "lng": 9.332,
+    "capital": "Niamey",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Burkina Faso",
+    "iso3": "BFA",
+    "iso2": "BF",
+    "lat": 12.271,
+    "lng": -1.762,
+    "capital": "Ouagadougou",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Togo",
+    "iso3": "TGO",
+    "iso2": "TG",
+    "lat": 8.522,
+    "lng": 0.964,
+    "capital": "Lome",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Ghana",
+    "iso3": "GHA",
+    "iso2": "GH",
+    "lat": 7.948,
+    "lng": -1.217,
+    "capital": "Accra",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "iso3": "GNB",
+    "iso2": "GW",
+    "lat": 12.027,
+    "lng": -14.978,
+    "capital": "Bissau",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Gibraltar",
+    "iso3": "GIB",
+    "iso2": "GI",
+    "lat": 36.129,
+    "lng": -5.347,
+    "capital": "",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "United States of America",
+    "iso3": "USA",
+    "iso2": "US",
+    "lat": 44.765,
+    "lng": -103.662,
+    "capital": "Washington D.C.",
+    "region": "North America",
+    "income": "High income"
+  },
+  {
+    "name": "Canada",
+    "iso3": "CAN",
+    "iso2": "CA",
+    "lat": 60.441,
+    "lng": -96.511,
+    "capital": "Ottawa",
+    "region": "North America",
+    "income": "High income"
+  },
+  {
+    "name": "Mexico",
+    "iso3": "MEX",
+    "iso2": "MX",
+    "lat": 23.926,
+    "lng": -102.178,
+    "capital": "Mexico City",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Belize",
+    "iso3": "BLZ",
+    "iso2": "BZ",
+    "lat": 17.206,
+    "lng": -88.695,
+    "capital": "Belmopan",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Panama",
+    "iso3": "PAN",
+    "iso2": "PA",
+    "lat": 8.517,
+    "lng": -80.121,
+    "capital": "Panama City",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Venezuela",
+    "iso3": "VEN",
+    "iso2": "VE",
+    "lat": 7.126,
+    "lng": -66.158,
+    "capital": "Caracas",
+    "region": "Latin America & Caribbean ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Papua New Guinea",
+    "iso3": "PNG",
+    "iso2": "PG",
+    "lat": -6.475,
+    "lng": 145.224,
+    "capital": "Port Moresby",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Egypt",
+    "iso3": "EGY",
+    "iso2": "EG",
+    "lat": 26.457,
+    "lng": 29.877,
+    "capital": "Cairo",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Yemen",
+    "iso3": "YEM",
+    "iso2": "YE",
+    "lat": 15.913,
+    "lng": 47.572,
+    "capital": "Sana'a",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "Low income"
+  },
+  {
+    "name": "Mauritania",
+    "iso3": "MRT",
+    "iso2": "MR",
+    "lat": 20.221,
+    "lng": -10.365,
+    "capital": "Nouakchott",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "iso3": "GNQ",
+    "iso2": "GQ",
+    "lat": 1.707,
+    "lng": 10.333,
+    "capital": "Malabo",
+    "region": "Sub-Saharan Africa ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Gambia",
+    "iso3": "GMB",
+    "iso2": "GM",
+    "lat": 13.451,
+    "lng": -15.398,
+    "capital": "Banjul",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Hong Kong S.A.R.",
+    "iso3": "HKG",
+    "iso2": "HK",
+    "lat": 22.385,
+    "lng": 114.131,
+    "capital": "",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Vatican",
+    "iso3": "VAT",
+    "iso2": "VA",
+    "lat": 41.904,
+    "lng": 12.454
+  },
+  {
+    "name": "Australia",
+    "iso3": "AUS",
+    "iso2": "AU",
+    "lat": -25.763,
+    "lng": 134.304,
+    "capital": "Canberra",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Greenland",
+    "iso3": "GRL",
+    "iso2": "GL",
+    "lat": 73.127,
+    "lng": -41.777,
+    "capital": "Nuuk",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Fiji",
+    "iso3": "FJI",
+    "iso2": "FJ",
+    "lat": -17.447,
+    "lng": 178.526,
+    "capital": "Suva",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "New Zealand",
+    "iso3": "NZL",
+    "iso2": "NZ",
+    "lat": -41.719,
+    "lng": 172.907,
+    "capital": "Wellington",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "New Caledonia",
+    "iso3": "NCL",
+    "iso2": "NC",
+    "lat": -21.305,
+    "lng": 165.698,
+    "capital": "Noum'ea",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Madagascar",
+    "iso3": "MDG",
+    "iso2": "MG",
+    "lat": -19.318,
+    "lng": 46.744,
+    "capital": "Antananarivo",
+    "region": "Sub-Saharan Africa ",
+    "income": "Low income"
+  },
+  {
+    "name": "Philippines",
+    "iso3": "PHL",
+    "iso2": "PH",
+    "lat": 11.717,
+    "lng": 122.909,
+    "capital": "Manila",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Sri Lanka",
+    "iso3": "LKA",
+    "iso2": "LK",
+    "lat": 7.614,
+    "lng": 80.704,
+    "capital": "Colombo",
+    "region": "South Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Curaçao",
+    "iso3": "CUW",
+    "iso2": "CW",
+    "lat": 12.194,
+    "lng": -68.971,
+    "capital": "Willemstad",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Aruba",
+    "iso3": "ABW",
+    "iso2": "AW",
+    "lat": 12.517,
+    "lng": -69.974,
+    "capital": "Oranjestad",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "The Bahamas",
+    "iso3": "BHS",
+    "iso2": "BS",
+    "lat": 24.216,
+    "lng": -76.513,
+    "capital": "Nassau",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "iso3": "TCA",
+    "iso2": "TC",
+    "lat": 21.78,
+    "lng": -71.872,
+    "capital": "Grand Turk",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Taiwan",
+    "iso3": "TWN",
+    "iso2": "CN-TW",
+    "lat": 23.749,
+    "lng": 120.947
+  },
+  {
+    "name": "Japan",
+    "iso3": "JPN",
+    "iso2": "JP",
+    "lat": 37.42,
+    "lng": 137.605,
+    "capital": "Tokyo",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "iso3": "SPM",
+    "iso2": "PM",
+    "lat": 46.93,
+    "lng": -56.308
+  },
+  {
+    "name": "Iceland",
+    "iso3": "ISL",
+    "iso2": "IS",
+    "lat": 65.001,
+    "lng": -18.602,
+    "capital": "Reykjavik",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "iso3": "PCN",
+    "iso2": "PN",
+    "lat": -24.415,
+    "lng": -128.483
+  },
+  {
+    "name": "French Polynesia",
+    "iso3": "PYF",
+    "iso2": "PF",
+    "lat": -15.154,
+    "lng": -144.945,
+    "capital": "Papeete",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "iso3": "ATF",
+    "iso2": "TF",
+    "lat": -49.08,
+    "lng": 68.907
+  },
+  {
+    "name": "Seychelles",
+    "iso3": "SYC",
+    "iso2": "SC",
+    "lat": -6.494,
+    "lng": 52.115,
+    "capital": "Victoria",
+    "region": "Sub-Saharan Africa ",
+    "income": "High income"
+  },
+  {
+    "name": "Kiribati",
+    "iso3": "KIR",
+    "iso2": "KI",
+    "lat": 0.637,
+    "lng": -167.026,
+    "capital": "Tarawa",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Marshall Islands",
+    "iso3": "MHL",
+    "iso2": "MH",
+    "lat": 7.114,
+    "lng": 170.106,
+    "capital": "Majuro",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "iso3": "TTO",
+    "iso2": "TT",
+    "lat": 10.469,
+    "lng": -61.259,
+    "capital": "Port-of-Spain",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Grenada",
+    "iso3": "GRD",
+    "iso2": "GD",
+    "lat": 12.153,
+    "lng": -61.657,
+    "capital": "Saint George's",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "iso3": "VCT",
+    "iso2": "VC",
+    "lat": 13.216,
+    "lng": -61.203,
+    "capital": "Kingstown",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Barbados",
+    "iso3": "BRB",
+    "iso2": "BB",
+    "lat": 13.181,
+    "lng": -59.561,
+    "capital": "Bridgetown",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Saint Lucia",
+    "iso3": "LCA",
+    "iso2": "LC",
+    "lat": 13.903,
+    "lng": -60.97,
+    "capital": "Castries",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Dominica",
+    "iso3": "DMA",
+    "iso2": "DM",
+    "lat": 15.436,
+    "lng": -61.357,
+    "capital": "Roseau",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "iso3": "UMI",
+    "iso2": "UM",
+    "lat": 15.588,
+    "lng": -158.379
+  },
+  {
+    "name": "Montserrat",
+    "iso3": "MSR",
+    "iso2": "MS",
+    "lat": 16.737,
+    "lng": -62.187
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "iso3": "ATG",
+    "iso2": "AG",
+    "lat": 17.284,
+    "lng": -61.792,
+    "capital": "Saint John's",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "iso3": "KNA",
+    "iso2": "KN",
+    "lat": 17.271,
+    "lng": -62.698,
+    "capital": "Basseterre",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "iso3": "VIR",
+    "iso2": "VI",
+    "lat": 17.98,
+    "lng": -64.798,
+    "capital": "Charlotte Amalie",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Saint Barthelemy",
+    "iso3": "BLM",
+    "iso2": "BL",
+    "lat": 17.905,
+    "lng": -62.833
+  },
+  {
+    "name": "Puerto Rico",
+    "iso3": "PRI",
+    "iso2": "PR",
+    "lat": 18.224,
+    "lng": -66.468,
+    "capital": "San Juan",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Anguilla",
+    "iso3": "AIA",
+    "iso2": "AI",
+    "lat": 18.23,
+    "lng": -63.059
+  },
+  {
+    "name": "British Virgin Islands",
+    "iso3": "VGB",
+    "iso2": "VG",
+    "lat": 18.511,
+    "lng": -64.502,
+    "capital": "Road Town",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Jamaica",
+    "iso3": "JAM",
+    "iso2": "JM",
+    "lat": 18.156,
+    "lng": -77.318,
+    "capital": "Kingston",
+    "region": "Latin America & Caribbean ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Cayman Islands",
+    "iso3": "CYM",
+    "iso2": "KY",
+    "lat": 19.428,
+    "lng": -80.875,
+    "capital": "George Town",
+    "region": "Latin America & Caribbean ",
+    "income": "High income"
+  },
+  {
+    "name": "Bermuda",
+    "iso3": "BMU",
+    "iso2": "BM",
+    "lat": 32.31,
+    "lng": -64.764,
+    "capital": "Hamilton",
+    "region": "North America",
+    "income": "High income"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "iso3": "HMD",
+    "iso2": "HM",
+    "lat": -53.089,
+    "lng": 73.505
+  },
+  {
+    "name": "Saint Helena",
+    "iso3": "SHN",
+    "iso2": "SH",
+    "lat": -23.461,
+    "lng": -10.04
+  },
+  {
+    "name": "Mauritius",
+    "iso3": "MUS",
+    "iso2": "MU",
+    "lat": -20.186,
+    "lng": 57.85,
+    "capital": "Port Louis",
+    "region": "Sub-Saharan Africa ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Comoros",
+    "iso3": "COM",
+    "iso2": "KM",
+    "lat": -11.884,
+    "lng": 43.679,
+    "capital": "Moroni",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "São Tomé and Principe",
+    "iso3": "STP",
+    "iso2": "ST",
+    "lat": 0.444,
+    "lng": 6.727,
+    "capital": "Sao Tome",
+    "region": "Sub-Saharan Africa ",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Cabo Verde",
+    "iso3": "CPV",
+    "iso2": "CV",
+    "lat": 15.943,
+    "lng": -23.973,
+    "capital": "Praia",
+    "region": "Sub-Saharan Africa ",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Malta",
+    "iso3": "MLT",
+    "iso2": "MT",
+    "lat": 35.921,
+    "lng": 14.404,
+    "capital": "Valletta",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Jersey",
+    "iso3": "JEY",
+    "iso2": "JE",
+    "lat": 49.221,
+    "lng": -2.127
+  },
+  {
+    "name": "Guernsey",
+    "iso3": "GGY",
+    "iso2": "GG",
+    "lat": 49.484,
+    "lng": -2.531
+  },
+  {
+    "name": "Isle of Man",
+    "iso3": "IMN",
+    "iso2": "IM",
+    "lat": 54.229,
+    "lng": -4.534,
+    "capital": "Douglas",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "Aland",
+    "iso3": "ALA",
+    "iso2": "AX",
+    "lat": 60.186,
+    "lng": 20.056
+  },
+  {
+    "name": "Faroe Islands",
+    "iso3": "FRO",
+    "iso2": "FO",
+    "lat": 62.072,
+    "lng": -6.87,
+    "capital": "Torshavn",
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "iso3": "IOT",
+    "iso2": "IO",
+    "lat": -7.141,
+    "lng": 72.293
+  },
+  {
+    "name": "Singapore",
+    "iso3": "SGP",
+    "iso2": "SG",
+    "lat": 1.359,
+    "lng": 103.814,
+    "capital": "Singapore",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Norfolk Island",
+    "iso3": "NFK",
+    "iso2": "NF",
+    "lat": -29.035,
+    "lng": 167.955
+  },
+  {
+    "name": "Cook Islands",
+    "iso3": "COK",
+    "iso2": "CK",
+    "lat": -19.792,
+    "lng": -158.793
+  },
+  {
+    "name": "Tonga",
+    "iso3": "TON",
+    "iso2": "TO",
+    "lat": -20.055,
+    "lng": -174.866,
+    "capital": "Nuku'alofa",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "iso3": "WLF",
+    "iso2": "WF",
+    "lat": -13.738,
+    "lng": -177.054
+  },
+  {
+    "name": "Samoa",
+    "iso3": "WSM",
+    "iso2": "WS",
+    "lat": -13.755,
+    "lng": -172.162,
+    "capital": "Apia",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Solomon Islands",
+    "iso3": "SLB",
+    "iso2": "SB",
+    "lat": -8.911,
+    "lng": 159.627,
+    "capital": "Honiara",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Tuvalu",
+    "iso3": "TUV",
+    "iso2": "TV",
+    "lat": -7.762,
+    "lng": 178.512,
+    "capital": "Funafuti",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Maldives",
+    "iso3": "MDV",
+    "iso2": "MV",
+    "lat": 3.821,
+    "lng": 73.302,
+    "capital": "Male",
+    "region": "South Asia",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "Nauru",
+    "iso3": "NRU",
+    "iso2": "NR",
+    "lat": -0.521,
+    "lng": 166.933,
+    "capital": "Yaren District",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "iso3": "FSM",
+    "iso2": "FM",
+    "lat": 7.024,
+    "lng": 155.347,
+    "capital": "Palikir",
+    "region": "East Asia & Pacific",
+    "income": "Upper middle income"
+  },
+  {
+    "name": "South Georgia and the Islands",
+    "iso3": "SGS",
+    "iso2": "GS",
+    "lat": -54.675,
+    "lng": -36.027
+  },
+  {
+    "name": "Falkland Islands",
+    "iso3": "FLK",
+    "iso2": "FK",
+    "lat": -51.735,
+    "lng": -59.374
+  },
+  {
+    "name": "Vanuatu",
+    "iso3": "VUT",
+    "iso2": "VU",
+    "lat": -16.192,
+    "lng": 167.69,
+    "capital": "Port-Vila",
+    "region": "East Asia & Pacific",
+    "income": "Lower middle income"
+  },
+  {
+    "name": "Niue",
+    "iso3": "NIU",
+    "iso2": "NU",
+    "lat": -19.049,
+    "lng": -169.869
+  },
+  {
+    "name": "American Samoa",
+    "iso3": "ASM",
+    "iso2": "AS",
+    "lat": -14.254,
+    "lng": -170.397,
+    "capital": "Pago Pago",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Palau",
+    "iso3": "PLW",
+    "iso2": "PW",
+    "lat": 7.197,
+    "lng": 134.346,
+    "capital": "Koror",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Guam",
+    "iso3": "GUM",
+    "iso2": "GU",
+    "lat": 13.444,
+    "lng": 144.772,
+    "capital": "Agana",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "iso3": "MNP",
+    "iso2": "MP",
+    "lat": 16.231,
+    "lng": 145.6,
+    "capital": "Saipan",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "name": "Bahrain",
+    "iso3": "BHR",
+    "iso2": "BH",
+    "lat": 26.035,
+    "lng": 50.564,
+    "capital": "Manama",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "income": "High income"
+  },
+  {
+    "name": "Macao S.A.R",
+    "iso3": "MAC",
+    "iso2": "MO",
+    "lat": 22.158,
+    "lng": 113.55,
+    "capital": "",
+    "region": "East Asia & Pacific",
+    "income": "High income"
+  },
+  {
+    "iso3": "CHI",
+    "iso2": "JG",
+    "name": "Channel Islands",
+    "capital": "",
+    "lat": 0,
+    "lng": 0,
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "iso3": "FRA",
+    "iso2": "FR",
+    "name": "France",
+    "capital": "Paris",
+    "lat": 48.8566,
+    "lng": 2.35097,
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "iso3": "NOR",
+    "iso2": "NO",
+    "name": "Norway",
+    "capital": "Oslo",
+    "lat": 59.9138,
+    "lng": 10.7387,
+    "region": "Europe & Central Asia",
+    "income": "High income"
+  },
+  {
+    "iso3": "XKX",
+    "iso2": "XK",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "lat": 42.565,
+    "lng": 20.926,
+    "region": "Europe & Central Asia",
+    "income": "Upper middle income"
+  }
+]

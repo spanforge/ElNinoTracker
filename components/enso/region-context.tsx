@@ -1,0 +1,6 @@
+import {GLOBAL_AREAS,regionalTakeaway} from '../../lib/enso/insights.mjs';
+import type {Phase} from '../../lib/enso/types';
+export default function RegionContext({region,area,onArea,month,phase,freshness}:{region:'india'|'global';area:string;onArea:(value:string)=>void;month:number;phase:Phase;freshness:string}){
+ const selected=GLOBAL_AREAS.find(a=>a.id===area)||GLOBAL_AREAS[0];
+ return <div className="regional-context"><div className="practical-takeaway"><h3>What does this mean for me?</h3><p>{regionalTakeaway(region,month,phase,freshness)}</p></div>{region==='global'&&<article className="card regional-guide"><label className="area-picker">Choose a broad region<select aria-label="World region" value={selected.id} onChange={e=>onArea(e.target.value)}>{GLOBAL_AREAS.map(a=><option key={a.id} value={a.id}>{a.name}</option>)}</select></label><div aria-live="polite" aria-atomic="true"><span className="small-tag">Official source guide · not a local forecast</span><h3>{selected.name}</h3><p className="region-season">{selected.season}</p><p>{selected.text}</p><a href={selected.url} target="_blank" rel="noreferrer">{selected.source} ↗</a><small>Independent interpretation review pending. These links explain typical patterns; they do not predict this season’s impact.</small></div></article>}</div>;
+}

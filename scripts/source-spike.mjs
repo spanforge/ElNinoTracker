@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';
+const sources={assessment:'https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml',outlook:'https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/',history:'https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/'};
+await fs.mkdir('tests/fixtures/enso',{recursive:true});
+for(const [name,url]of Object.entries(sources)){const r=await fetch(url,{signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error(`${name} ${r.status}`);const html=await r.text();await fs.writeFile(`tests/fixtures/enso/${name}.html`,html);const headers={url,fetched_at:new Date().toISOString(),last_modified:r.headers.get('last-modified'),etag:r.headers.get('etag'),content_type:r.headers.get('content-type')};await fs.writeFile(`tests/fixtures/enso/${name}.headers.json`,JSON.stringify(headers,null,2));console.log(name,JSON.stringify(headers));}
